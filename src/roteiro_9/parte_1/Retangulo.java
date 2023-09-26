@@ -4,33 +4,29 @@ public class Retangulo implements FiguraGeometrica {
    private double altura;
    private double largura;
 
-   // Construtor
    public Retangulo(double altura, double largura) {
       this.altura = altura;
       this.largura = largura;
    }
-
-   // Gets e sets
+   // Método para obter a altura do retângulo
    public double getAltura() {
       return altura;
    }
-   public void setAltura(double altura) {
-      this.altura = altura;
-   }
+   // Método para obter a largura do retângulo
    public double getLargura() {
       return largura;
    }
-   public void setLargura(double largura) {
-      this.largura = largura;
-   }
+   // Implementação do método da interface para obter o nome da figura
    @Override
    public String getNomeFigura() {
       return "Retângulo";
    }
+   // Implementação do método da interface para calcular a área
    @Override
    public double getArea() {
       return this.altura * this.largura;
    }
+   // Implementação do método da interface para calcular o perímetro
    @Override
    public double getPerimetro() {
       return 2 * (this.altura + this.largura);

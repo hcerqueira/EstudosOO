@@ -1,9 +1,14 @@
 package roteiro_9.parte_2;
 
+// Definição da interface FiguraGeometrica
 public interface FiguraGeometrica {
 
+   // Método para obter o nome da figura
    public String getNomeFigura();
-   public double getArea();
-   public double getPerimetro();
 
+   // Método para calcular a área da figura
+   public double getArea();
+
+   // Método para calcular o perímetro da figura
+   public double getPerimetro();
 }

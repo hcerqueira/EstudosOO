@@ -27,7 +27,7 @@ public class Principal {
       //Criando um objeto Circulo
       Circulo circulo = new Circulo(9.0);
 
-      //Imprimindo informações sobre o Circulo
+      //Imprimindo informações sobre o Círculo
       System.out.println("Figura: " + circulo.getNomeFigura());
       System.out.println("Raio: " + circulo.getRaio());
       System.out.println("Área: " + circulo.getArea());
