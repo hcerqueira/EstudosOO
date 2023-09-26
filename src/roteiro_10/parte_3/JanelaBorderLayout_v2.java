@@ -1,7 +1,6 @@
 package roteiro_10.parte_3;
-
-import java.awt.*;
 import javax.swing.*;
+import java.awt.*;
 
 public class JanelaBorderLayout_v2 extends JFrame {
     private JPanel pnCabecalho;
@@ -35,16 +34,21 @@ public class JanelaBorderLayout_v2 extends JFrame {
         this.add(pnEsquerda, BorderLayout.LINE_START);
         this.add(pnDireita, BorderLayout.LINE_END);
         this.add(pnCentro, BorderLayout.CENTER);
+
+            //Adicionando métodos abaixos dentro do método existente (principal).
+        iniciarCabecalho();
+        iniciarRodape();
+        iniciarCentro();
     }
 
-    public void iniciarCabecalho() {
+    public Component iniciarCabecalho() {
         this.pnCabecalho.setLayout(new FlowLayout(FlowLayout.LEFT));
         this.pnCabecalho.add(new JLabel("Curso"));
         this.pnCabecalho.add(new JTextField(10));
         this.pnCabecalho.add(new JLabel("Observações"));
         this.pnCabecalho.add(new JTextField(25));
+        return null;
     }
-
     public void iniciarRodape() {
         this.pnRodape.setLayout(new FlowLayout(FlowLayout.RIGHT));
         this.pnRodape.add(new JButton("Botão 04"));
