@@ -13,7 +13,7 @@ public class Exercicio01 {
         System.out.println("Salário base do funcionário é: " + sb);
 
             // O valor da hora extra é calculado dividindo o salário-base pelo número de horas trabalhadas no mês
-        double calc = (2500 / 40) * 10; // Calcula o valor das horas extras (2500 / 40 = valor da hora por hora; multiplicado por 10 horas)
+        double calc = (double) 2500 / 40 * 10; // Calcula o valor das horas extras (2500 / 40 = valor da hora por hora; multiplicado por 10 horas)
 
             // Somando o salário base com o valor das horas extras para obter o salário total
         double st = sb + calc; // Calcula o salário total (salário base + valor das horas extras)

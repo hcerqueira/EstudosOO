@@ -10,7 +10,7 @@ public class Programa02 {
         String nome = sc.nextLine();
         System.out.println("Nome informado: " + nome+" \n");
 
-        //Testando com tipos númericos agora...
+        //Testando com tipos numéricos agora...
         System.out.println("Informe a idade");
         int idade = sc.nextInt();
         System.out.println("Idade informada: "+idade+" \n");
