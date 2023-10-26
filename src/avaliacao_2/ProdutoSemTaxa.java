@@ -1,4 +1,4 @@
-package ava_2;
+package avaliacao_2;
 public class ProdutoSemTaxa extends Produto {
     private double ICMS = 0.0;
 

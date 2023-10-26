@@ -1,4 +1,4 @@
-package ava_2;
+package avaliacao_2;
 public class ProdutoComT20 extends Produto {
     private  double ICMS = 0.20;
 

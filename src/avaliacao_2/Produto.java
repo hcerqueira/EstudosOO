@@ -1,4 +1,4 @@
-package ava_2;
+package avaliacao_2;
 public class Produto {
     protected int codigo;
     protected String nome;

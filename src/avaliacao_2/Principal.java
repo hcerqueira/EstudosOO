@@ -1,4 +1,4 @@
-package ava_2;
+package avaliacao_2;
 import java.util.*;
 
 public class Principal {
