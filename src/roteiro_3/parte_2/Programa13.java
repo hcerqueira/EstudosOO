@@ -14,7 +14,7 @@ public class Programa13 {
         System.out.println("Informe o valor de y ");
         double y = sc.nextDouble();
 
-        switch (op) {
+        switch (op) {  // Há como reduzir o código
             case "+":
                 soma(x, y);
                 break;

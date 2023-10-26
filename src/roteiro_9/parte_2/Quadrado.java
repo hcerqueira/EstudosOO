@@ -3,26 +3,24 @@ package roteiro_9.parte_2;
 public class Quadrado implements FiguraGeometrica {
    private double lado;
 
-   //Construtor
    public Quadrado(double lado) {
       this.lado = lado;
    }
-
-   //Gets e sets
+   // Método para obter o lado do quadrado
    public double getLado() {
       return lado;
    }
-   public void setLado(double lado) {
-      this.lado = lado;
-   }
+   // Implementação do método da interface para obter o nome da figura
    @Override
    public String getNomeFigura() {
       return "Quadrado";
    }
+   // Implementação do método da interface para calcular a área
    @Override
    public double getArea() {
       return this.lado * this.lado;
    }
+   // Implementação do método da interface para calcular o perímetro
    @Override
    public double getPerimetro() {
       return this.lado * 4;

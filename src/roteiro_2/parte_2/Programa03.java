@@ -3,7 +3,7 @@ import javax.swing.*;
 
 public class Programa03 {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
             // Solicita o nome do usuário por meio de uma caixa de diálogo e armazena na variável "nome"
         String nome = JOptionPane.showInputDialog("Informe seu nome ");
